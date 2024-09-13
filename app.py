@@ -136,4 +136,4 @@ text-align: center;
 <p>"""rainbow:[Developed with :heart: by Raghav]"""</a></p>
 </div>
 """
-st.markdown(footer,unsafe_allow_html=True)
+st.markdown("""rainbow:[Developed with :heart: by Raghav]""",unsafe_allow_html=True)
