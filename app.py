@@ -120,20 +120,5 @@ if st.button("Submit Measurements"):
     st.write(f"Counts for |11⟩: {counts_11}")
 
 
-footer="""<style>
 
-.footer {
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-background-color: white;
-text-align: center;
-}
-</style>
-
-<div class="footer">
-<p>"""rainbow:[Developed with :heart: by Raghav]"""</a></p>
-</div>
-"""
 st.markdown("""rainbow:[Developed with :heart: by Raghav]""",unsafe_allow_html=True)
