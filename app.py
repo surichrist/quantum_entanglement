@@ -121,5 +121,5 @@ if st.button("Submit Measurements"):
 
 
 
-st.markdown(''':rainbow[Developed eating]''' ":hamburger:")
-st.markdown(''':rainbow[by Raghav ;]''')
+st.markdown(''':rainbow[Developed eating]''' ":hamburger:" ''':rainbow[by Raghav]''')
+
