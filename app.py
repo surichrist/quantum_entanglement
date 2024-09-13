@@ -121,17 +121,6 @@ if st.button("Submit Measurements"):
 
 
 footer="""<style>
-a:link , a:visited{
-color: blue;
-background-color: transparent;
-text-decoration: underline;
-}
-
-a:hover,  a:active {
-color: red;
-background-color: transparent;
-text-decoration: underline;
-}
 
 .footer {
 position: fixed;
@@ -143,8 +132,9 @@ color: rainbow;
 text-align: center;
 }
 </style>
+
 <div class="footer">
-<p>Developed with ❤️ by</a></p>
+<p>Developed with ❤️ by Raghav</a></p>
 </div>
 """
-st.markdown(footer,unsafe_allow_html=True)
+st.markdown(footer + rainbow:[RAGHAV],unsafe_allow_html=True)
