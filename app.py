@@ -148,4 +148,4 @@ text-align: center;
 </div>
 """
 st.markdown(footer,unsafe_allow_html=True)
-st.link_button("Raghav", "https://www.linkedin.com/in/raghav-suri/",use_container_width=False)
+st.markdown(st.link_button("Raghav", "https://www.linkedin.com/in/raghav-suri/",use_container_width=False))
