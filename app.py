@@ -134,7 +134,7 @@ st.markdown("""
         box-shadow: 0px -2px 5px rgba(0,0,0,0.1);
     }
     .rainbow-text {
-        background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+        background: linear-gradient(180deg, red, orange, yellow, green, blue, indigo, violet);
         -webkit-background-clip: text;
         color: transparent;
         font-weight: bold;
