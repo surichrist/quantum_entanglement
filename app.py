@@ -119,7 +119,8 @@ if st.button("Submit Measurements"):
     st.write(f"Counts for |10⟩: {counts_10}")
     st.write(f"Counts for |11⟩: {counts_11}")
 
-    > footer="""<style>
+
+footer="""<style>
 a:link , a:visited{
 color: blue;
 background-color: transparent;
@@ -143,3 +144,7 @@ text-align: center;
 }
 </style>
 <div class="footer">
+<p>Developed with ❤ by<a style='display: block; text-align: center;' href="https://www.linkedin.com/in/raghav-suri" target="_blank"> Raghav</a></p>
+</div>
+"""
+st.markdown(footer,unsafe_allow_html=True)
