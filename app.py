@@ -134,14 +134,17 @@ st.markdown("""
         box-shadow: 0px -2px 5px rgba(0,0,0,0.1);
     }
     .rainbow-text {
-        background-image: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
-        color: transparent;
-        background-clip: text;
+        background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
         -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+    }
+    .emoji {
+        display: inline;
     }
     </style>
     <div class="fixed-bottom">
-        <p class="rainbow-text">Developed by Raghav</p>
+        <p class="rainbow-text">Developed by Raghav eating <span class="emoji">🍔</span></p>
     </div>
     """, unsafe_allow_html=True)
 
