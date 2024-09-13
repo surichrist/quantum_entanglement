@@ -144,7 +144,8 @@ text-align: center;
 }
 </style>
 <div class="footer">
-<p>Developed with ❤️ by<a style='display: block; text-align: center;' href="https://www.linkedin.com/in/raghav-suri" target="_blank"> Raghav</a></p>
+<p>Developed with ❤️ by</a></p>
 </div>
 """
 st.markdown(footer,unsafe_allow_html=True)
+st.link_button("Raghav", "https://www.linkedin.com/in/raghav-suri/",use_container_width=False)
