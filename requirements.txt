@@ -2,5 +2,6 @@ matplotlib==3.9.2
 numpy
 qiskit==0.46.0
 qiskit_terra==0.46.0
+qiskit_aer
 seaborn==0.13.2
 streamlit==1.38.0
