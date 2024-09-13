@@ -147,5 +147,4 @@ text-align: center;
 <p>Developed with ❤️ by</a></p>
 </div>
 """
-st.markdown(footer,unsafe_allow_html=True)
-st.markdown(st.link_button("Raghav", "https://www.linkedin.com/in/raghav-suri/",use_container_width=False))
+st.markdown(:rainbow[footer],unsafe_allow_html=True)
