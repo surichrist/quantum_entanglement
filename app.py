@@ -121,9 +121,6 @@ if st.button("Submit Measurements"):
 
 
 
-st.markdown(''':rainbow[Developed eating ]''' ":hamburger:")
-st.markdown(''':blue-background[highlight] text.''')
-
 st.markdown("""
     <style>
     .fixed-bottom {
@@ -144,7 +141,7 @@ st.markdown("""
     }
     </style>
     <div class="fixed-bottom">
-        <p class="rainbow-text">This is pinned to the bottom with a rainbow effect!</p>
+        <p class="rainbow-text">Developed eating 🍔 by Raghav</p>
     </div>
     """, unsafe_allow_html=True)
 
