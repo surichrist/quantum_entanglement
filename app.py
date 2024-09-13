@@ -133,7 +133,7 @@ text-align: center;
 </style>
 
 <div class="footer">
-<p>Developed with ❤️ by Raghav</a></p>
+<p>"""rainbow:[Developed with ❤️ by Raghav]"""</a></p>
 </div>
 """
-st.markdown(rainbow:[footer],unsafe_allow_html=True)
+st.markdown(footer,unsafe_allow_html=True)
