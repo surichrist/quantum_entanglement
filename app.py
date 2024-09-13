@@ -121,5 +121,30 @@ if st.button("Submit Measurements"):
 
 
 
-st.markdown(''':rainbow[Developed eating ]''' ":hamburger:" by Raghav)
+st.markdown(''':rainbow[Developed eating ]''' ":hamburger:")
+st.markdown(''':blue-background[highlight] text.''')
+
+st.markdown("""
+    <style>
+    .fixed-bottom {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        box-shadow: 0px -2px 5px rgba(0,0,0,0.1);
+    }
+    .rainbow-text {
+        background-image: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+    </style>
+    <div class="fixed-bottom">
+        <p class="rainbow-text">This is pinned to the bottom with a rainbow effect!</p>
+    </div>
+    """, unsafe_allow_html=True)
 
