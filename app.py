@@ -128,7 +128,6 @@ left: 0;
 bottom: 0;
 width: 100%;
 background-color: white;
-color: rainbow;
 text-align: center;
 }
 </style>
@@ -137,4 +136,4 @@ text-align: center;
 <p>Developed with ❤️ by Raghav</a></p>
 </div>
 """
-st.markdown(footer + rainbow:[RAGHAV],unsafe_allow_html=True)
+st.markdown(rainbow:footer,unsafe_allow_html=True)
