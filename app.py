@@ -144,7 +144,7 @@ st.markdown("""
     }
     </style>
     <div class="fixed-bottom">
-        <p class="rainbow-text">Developed by Raghav eating <span class="emoji">🍔</span></p>
+        <p class="rainbow-text">Developed by Raghav eating</p><span class="emoji">🍔</span>
     </div>
     """, unsafe_allow_html=True)
 
